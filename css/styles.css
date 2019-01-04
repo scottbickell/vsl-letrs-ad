@@ -1,0 +1,295 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 0; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+/* Nav Bar Area */
+.navbar{
+	height: 100px;
+	background-color: #ffffff;
+	margin-bottom: 0px;
+	border-radius: 0;
+    text-align:center;
+    padding-top: 10px;
+}
+.navbar-brand {
+    padding-top: 0px;
+}
+
+/* HEADER */
+
+header {
+    display: block;
+    background: url('../img/bicycle.jpg');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+header h1 {
+    font-size: 54px;
+    color: #000000;
+}
+.missing {
+    color: #ac0b3d;
+}
+
+h2.subhead {
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    text-transform: none;
+    font-weight: normal;
+    padding: 15px 0;
+}
+
+.orange-arrow {
+    background: url("../img/orange-arrow.png");
+    height: 110px;
+    background-position: right;
+    display: block;
+}
+
+
+/* Banner Area */
+
+.banner-copy{
+	padding: 50px 30px 50px 20px;
+}
+
+.banner-copy h1{
+	color: #fff !important;
+}
+.banner-copy p{
+	color: #fff !important;
+	font-size: 18px;
+    font-weight: 300;
+}
+.eff-inno-flex {
+	display: block;
+}
+
+.banner-content {
+    display: block;
+    width: 92%;
+    bottom: 0;
+    position: relative;
+    padding: 15px 15px 60px 15px;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.banner-content h1 span {
+    font-size: 23px;
+    color: #333;
+    display: block;
+    clear: both;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.banner-content h3 {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.banner-content a {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    color: #333;
+    padding: 8px 25px;
+    border: #435465 solid 1px;
+    margin-top: 20px;
+    font-size: 18px;
+    background: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner-content a:hover {
+    background: rgba(255, 255, 255, .8);
+    text-decoration: none;
+}
+
+/* Main Content */
+
+.left-col {
+	min-height: 1350px;
+	padding-top:20px;
+	
+}
+
+.right-col {
+	min-height: 1350px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	
+}
+
+h2 {
+	text-align: center;
+	color: #00aeef;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: .1em;
+	font-size: 40px;
+	margin-top:0px;
+	
+}
+
+hr.eff-inno-flex  {
+	border-top: 1px solid #3069B2;
+	
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 0px 0;
+}
+/*Customize by Mike P */
+ul.nav.navbar-nav {
+    padding-top: 9px;
+}
+
+.blockquote-footer {
+    margin: 15px 0;
+}
+.bkgdgraydark{
+	background: #57585b;
+	padding: 30px 0;
+	text-align: center;
+	color: #fff;
+}
+.floatr{
+	float:right;
+}
+
+/* Form */
+.form {
+	background: #e6e7e8;
+	padding-top: 20px;
+    padding-right: 20px;
+}
+.form p {
+	padding-left: 20px;
+}
+.form h3 {
+	padding-left: 20px;
+	font-size: 26px;
+	color: #3069b2;
+	font-weight: 500;
+	padding-top: 0px;
+	margin-top: 5px;
+}
+.form h4 {
+	font-size: 20px;
+	color: #3069b2;
+	font-weight: 300;
+	margin: 0px 0px 25px 0px;
+}
+.form .video{
+	border: #d2232a solid 3px;
+	margin: 0px 10px 0px 30px;
+}
+iframe.iframe {
+	margin-left: -40px;
+}
+.videowrap h3 {
+	font-size: 20px;
+	color: #3069b2;
+	font-weight: 300;
+	margin: 0px 0px 25px 0px;
+}
+.videowrap h4 {
+	font-size: 26px;
+	color: #3069b2;
+	font-weight: 500;
+	padding-top: 0px;
+	margin-top: 5px;
+}
+.video{
+	border: #d2232a solid 3px;
+	margin: 0px 0px;
+}
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+/****************************
+UNDER 1200
+****************************/
+
+@media screen and (max-width: 1199px) {
+.tab-hide{
+	display: none;
+}
+}
+/****************************
+UNDER 480
+****************************/
+
+@media screen and (max-width: 481px) {
+.mob-hide{
+	display: none;
+}
+.tagline{
+	font-size: 26px;
+    line-height: 32px;
+}
+.tagline span{
+	font-size: 16px;
+}
+.ctabox{
+	display: block;
+	width: 100%;
+	border: #ad073d 3px solid;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px 20px;
+}
+iframe.iframe {
+    margin-left: 0px;
+}
+.featbox{
+	display: block;
+	width: 100%;
+	border: #ffffff 0px none;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+}
+
+.col-sm-12.feats ul li {
+    font-size: 18px !important;
+	color: #FFFFFF
+}
+.floatr{
+	float:none;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
