@@ -62,6 +62,7 @@ h2.subhead {
 }
 
 
+
 /* Banner Area */
 
 .banner-copy {
@@ -83,52 +84,7 @@ h2.subhead {
 }
 
 .banner-content {
-    display: block;
-    width: 92%;
-    bottom: 0;
-    position: relative;
-    padding: 15px 15px 60px 15px;
-}
-
-.banner-content h1 {
-    font-size: 50px;
-    color: #FFF;
-    font-weight: 400;
-}
-
-.banner-content h1 span {
-    font-size: 23px;
-    color: #333;
-    display: block;
-    clear: both;
-    margin-top: 20px;
-    font-weight: 300;
-}
-
-.banner-content h3 {
-    color: #333;
-    text-transform: uppercase;
-    font-size: 18px;
-}
-
-.banner-content a {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
-    color: #333;
-    padding: 8px 25px;
-    border: #435465 solid 1px;
-    margin-top: 20px;
-    font-size: 18px;
-    background: #fff;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.banner-content a:hover {
-    background: rgba(255, 255, 255, .8);
-    text-decoration: none;
+    padding-bottom: 80px;
 }
 
 /* Main Content */
@@ -139,6 +95,10 @@ h2.subhead {
 
 .margin-top-20 {
     margin-top: 20px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
 }
 
 hr.eff-inno-flex {
@@ -293,9 +253,20 @@ UNDER 480
         margin-left: auto;
         margin-right: auto;
     }
+
     h2.subhead {
         font-size: 48px;
         padding: 30px 0 0 0;
         text-align: left;
     }
+
+}
+    /****************************
+OVER 1200
+****************************/
+
+@media screen and (min-width: 1200px) {
+    /* .banner-content {
+        padding-bottom: 250px;
+    } */
 }
