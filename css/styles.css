@@ -193,6 +193,23 @@ ul.nav.navbar-nav {
     padding-left: 0;
 }
 
+h3.letrs-video {
+    margin-bottom: 30px;
+}
+
+.quote-container {
+    background: #e1eefb;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.quote-container.left-border {
+    border-left: 5px solid #3069b2;
+}
+
+.quote-container.right-border {
+    border-right: 5px solid #3069b2;
+}
+
 /****************************
 UNDER 1200
 ****************************/
@@ -256,7 +273,7 @@ UNDER 480
 
     h2.subhead {
         font-size: 48px;
-        padding: 30px 0 0 0;
+        padding: 0;
         text-align: left;
     }
 
@@ -265,8 +282,11 @@ UNDER 480
 OVER 1200
 ****************************/
 
-@media screen and (min-width: 1200px) {
-    /* .banner-content {
+@media screen and (min-width: 1800px) {
+    header {
+        padding-top: 120px;
+    }
+    .banner-content {
         padding-bottom: 250px;
-    } */
+    }
 }
