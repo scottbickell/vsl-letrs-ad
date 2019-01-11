@@ -187,15 +187,26 @@ ul.nav.navbar-nav {
     margin-left: 0;
 }
 
+h2.main-heading {
+    margin-bottom: 1em;
+}
+
 .row.no-gutters>[class^="col-"],
 .row.no-gutters>[class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
 }
 
+li {
+    margin-bottom: .3em;
+}
+
 h3.letrs-video {
     margin-bottom: 30px;
+    line-height: 1.25em;
 }
+
+
 
 .quote-container {
     background: #e1eefb;
