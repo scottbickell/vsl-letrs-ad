@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://go.voyagersopris.com">
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="%%description%%" />
+    <title>%%title%%</title>
+    
+    <script type="text/javascript">
+        piAId = '208592';
+        piCId = '28386';
+        piHostname = 'pi.pardot.com';
+
+        (function () {
+            function async_load() {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') +
+                    '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0];
+                c.parentNode.insertBefore(s, c);
+            }
+            if (window.attachEvent) {
+                window.attachEvent('onload', async_load);
+            } else {
+                window.addEventListener('load', async_load, false);
+            }
+        })();
+    </script>
+
+</head>
+
+<body>
+    %%content%%
+</body>
+
+</html>

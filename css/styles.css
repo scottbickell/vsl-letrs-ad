@@ -29,7 +29,7 @@ body {
 
 header {
     display: block;
-    background: url('../img/bicycle.jpg');
+    background: url('https://go.voyagersopris.com/l/207592/2019-01-13/883y4/207592/86011/bicycle.jpg');
     position: relative;
     background-position: center;
     background-size: cover;
@@ -55,7 +55,7 @@ h2.subhead {
 }
 
 .orange-arrow {
-    background: url("../img/orange-arrow.png");
+    background: url("https://go.voyagersopris.com/l/207592/2019-01-13/883yb/207592/86017/orange_arrow.png");
     height: 110px;
     background-position: right;
     display: block;
@@ -206,7 +206,9 @@ h3.letrs-video {
     line-height: 1.25em;
 }
 
-
+h3.cta-heading {
+    margin-top: 0;
+}
 
 .quote-container {
     background: #e1eefb;
@@ -291,9 +293,13 @@ UNDER 480
     }
 
     h2.subhead {
-        font-size: 48px;
+        font-size: 42px;
         padding: 0;
         text-align: left;
+    }
+    header h1 {
+        font-size: 42px;
+        color: #000000;
     }
 
 }
